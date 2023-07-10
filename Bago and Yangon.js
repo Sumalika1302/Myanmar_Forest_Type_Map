@@ -1,6 +1,6 @@
 var table = ee.FeatureCollection("users/pawlokdass/Sumalika/Bago_and_Yangon"),
-var tcc = ee.Image("users/pawlokdass/Sumalika/tcc_myanmar_calib_2018_wgs84_bd"),
-var geometry = /* color: #d63000 */ee.Feature(
+    tcc = ee.Image("users/pawlokdass/Sumalika/tcc_myanmar_calib_2018_wgs84_bd"),
+    geometry = /* color: #d63000 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.2823108864927, 18.10270303365038],
               [96.28327648173806, 18.10272342918958],
@@ -10,7 +10,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry2 = /* color: #98ff00 */ee.Feature(
+    geometry2 = /* color: #98ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.2813560200834, 18.16579546427258],
               [96.28198365699288, 18.16579546427258],
@@ -20,7 +20,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry3 = /* color: #0b4a8b */ee.Feature(
+    geometry3 = /* color: #0b4a8b */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.21087829600808, 18.141057746109247],
               [96.2111357880735, 18.14116479920757],
@@ -30,7 +30,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry4 = /* color: #ffc82d */ee.Feature(
+    geometry4 = /* color: #ffc82d */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.29522304069039, 17.735926613510312],
               [96.29585067759987, 17.735706906993418],
@@ -40,7 +40,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry5 = /* color: #00ffff */ee.Feature(
+    geometry5 = /* color: #00ffff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.49468551408287, 17.72874513656166],
               [96.49726043473717, 17.72970574922774],
@@ -50,7 +50,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry6 = /* color: #bf04c2 */ee.Feature(
+    geometry6 = /* color: #bf04c2 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.4996422363424, 17.722409051712717],
               [96.50378356706139, 17.722674762995506],
@@ -63,7 +63,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry7 = /* color: #ff0000 */ee.Feature(
+    geometry7 = /* color: #ff0000 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.48822139035698, 17.74230309454502],
               [96.48846815358635, 17.742415498424428],
@@ -73,7 +73,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry8 = /* color: #00ff00 */ee.Feature(
+    geometry8 = /* color: #00ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.49382720719811, 17.753045010044517],
               [96.49310837518212, 17.7479870659218],
@@ -83,7 +83,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry9 = /* color: #999900 */ee.Feature(
+    geometry9 = /* color: #999900 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.22272293101784, 17.876554863345344],
               [96.22272829543587, 17.876383831544743],
@@ -105,7 +105,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "system:index": "0",
           "Class": "Upland_Evergreen"
         }),
-  var geometry10 = /* color: #009999 */ee.Feature(
+    geometry10 = /* color: #009999 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.22229109536644, 17.875689491797363],
               [96.2223554683828, 17.875794153477113],
@@ -116,7 +116,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry11 = /* color: #ff00ff */ee.Feature(
+    geometry11 = /* color: #ff00ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.21175001393792, 17.87250366287218],
               [96.21185730229851, 17.8726083264287],
@@ -129,7 +129,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry12 = /* color: #ff9999 */ee.Feature(
+    geometry12 = /* color: #ff9999 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.21173123847481, 17.872033952493503],
               [96.21192972194191, 17.871944605270034],
@@ -142,7 +142,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry13 = /* color: #99ff99 */ee.Feature(
+    geometry13 = /* color: #99ff99 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.21183852683541, 17.871814413521143],
               [96.2118733955526, 17.871694432805352],
@@ -155,7 +155,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry14 = /* color: #9999ff */ee.Feature(
+    geometry14 = /* color: #9999ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.21001194249627, 17.872388788166013],
               [96.2102533413076, 17.87221009403102],
@@ -171,7 +171,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry15 = /* color: #ffff99 */ee.Feature(
+    geometry15 = /* color: #ffff99 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.20760868321892, 17.86992789884671],
               [96.20788763295647, 17.869805364047995],
@@ -186,7 +186,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry16 = /* color: #99ffff */ee.Feature(
+    geometry16 = /* color: #99ffff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.16744528542992, 17.86427589333545],
               [96.16778860818383, 17.863946570400348],
@@ -201,7 +201,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry17 = /* color: #ff99ff */ee.Feature(
+    geometry17 = /* color: #ff99ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.10957930814263, 17.727253110935095],
               [96.10967854987618, 17.72726205290651],
@@ -223,7 +223,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry18 = /* color: #d63000 */ee.Feature(
+    geometry18 = /* color: #d63000 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.10794584285256, 17.727470272971576],
               [96.10802228580948, 17.727582686157685],
@@ -240,7 +240,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry19 = /* color: #98ff00 */ee.Feature(
+    geometry19 = /* color: #98ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.10921586882111, 17.741194379772622],
               [96.10931376945015, 17.741191825122364],
@@ -255,7 +255,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry20 = /* color: #0b4a8b */ee.Feature(
+    geometry20 = /* color: #0b4a8b */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.10902274977204, 17.742608373098616],
               [96.10910053383347, 17.742621146248506],
@@ -270,7 +270,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry21 = /* color: #ffc82d */ee.Feature(
+    geometry21 = /* color: #ffc82d */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.1021549535894, 17.77335836791726],
               [96.10238562356469, 17.773330271813805],
@@ -285,7 +285,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry22 = /* color: #00ffff */ee.Feature(
+    geometry22 = /* color: #00ffff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.03156994115349, 17.79318672963231],
               [96.03185693751809, 17.793235253868687],
@@ -297,7 +297,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry23 = /* color: #bf04c2 */ee.Feature(
+    geometry23 = /* color: #bf04c2 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.72918306123253, 19.16164287464153],
               [95.7291776968145, 19.161437652527635],
@@ -310,7 +310,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "DDF",
           "system:index": "0"
         }),
-  var geometry24 = /* color: #ff0000 */ee.Feature(
+    geometry24 = /* color: #ff0000 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.73274503480431, 19.150900040540787],
               [95.73318491708275, 19.151133147197246],
@@ -323,7 +323,7 @@ var geometry = /* color: #d63000 */ee.Feature(
           "Class": "DDF",
           "system:index": "0"
         }),
-var geometry25 = /* color: #00ff00 */ee.Feature(
+    geometry25 = /* color: #00ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.76115499269005, 19.11411067206315],
               [95.76162706147667, 19.113951008927415],
@@ -336,7 +336,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "DDF",
           "system:index": "0"
         }),
-  var geometry26 = /* color: #0000ff */ee.Feature(
+    geometry26 = /* color: #0000ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.75093041192528, 19.04811866134491],
               [95.75092504750725, 19.047931045769605],
@@ -349,7 +349,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "DDF",
           "system:index": "0"
         }),
-  var geometry27 = /* color: #999900 */ee.Feature(
+    geometry27 = /* color: #999900 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.76583008300301, 19.02816430343959],
               [95.76591323148247, 19.028389976037545],
@@ -364,7 +364,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "DDF",
           "system:index": "0"
         }),
-  var geometry28 = /* color: #009999 */ee.Feature(
+    geometry28 = /* color: #009999 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.76048444043633, 18.79224312403091],
               [95.76053540240761, 18.791981583325352],
@@ -379,13 +379,13 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "DDF",
           "system:index": "0"
         }),
-  var geometry29 = /* color: #ff00ff */ee.Feature(
+    geometry29 = /* color: #ff00ff */ee.Feature(
         ee.Geometry.MultiPoint(),
         {
           "Class": "DDF",
           "system:index": "0"
         }),
-  var geometry30 = /* color: #ff9999 */ee.Feature(
+    geometry30 = /* color: #ff9999 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.88497917186257, 18.526171810043632],
               [95.88537345658776, 18.526161637190395],
@@ -398,7 +398,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "DDF",
           "system:index": "0"
         }),
-  var geometry31 = /* color: #99ff99 */ee.Feature(
+    geometry31 = /* color: #99ff99 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.8507836891317, 18.331561652640183],
               [95.85094998609063, 18.331467447163817],
@@ -417,7 +417,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "DDF",
           "system:index": "0"
         }),
-  var geometry32 = /* color: #9999ff */ee.Feature(
+    geometry32 = /* color: #9999ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.31972770225045, 17.279791789478],
               [96.32356862555977, 17.27966885427609],
@@ -427,7 +427,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry33 = /* color: #ffff99 */ee.Feature(
+    geometry33 = /* color: #ffff99 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.91463093291756, 18.02267181360586],
               [96.91935162078377, 18.023202338477937],
@@ -438,7 +438,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry34 = /* color: #99ffff */ee.Feature(
+    geometry34 = /* color: #99ffff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.86617414485451, 18.03631191639588],
               [96.86941961776253, 18.03623540418256],
@@ -449,7 +449,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry35 = /* color: #ff99ff */ee.Feature(
+    geometry35 = /* color: #ff99ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.9151968790197, 17.61435718785637],
               [96.91637705098626, 17.61536954052216],
@@ -463,7 +463,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry36 = /* color: #d63000 */ee.Feature(
+    geometry36 = /* color: #d63000 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.00000040065285, 18.48989920155062],
               [95.00091771613594, 18.489929726574964],
@@ -473,7 +473,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "DDF",
           "system:index": "0"
         }),
-  var geometry37 = /* color: #98ff00 */ee.Feature(
+    geometry37 = /* color: #98ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[94.99335388671395, 18.49231829286778],
               [94.993724031558, 18.4922267190551],
@@ -486,7 +486,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "DDF",
           "system:index": "0"
         }),
-  var geometry38 = /* color: #0b4a8b */ee.Feature(
+    geometry38 = /* color: #0b4a8b */ee.Feature(
         ee.Geometry.Polygon(
             [[[94.99092380534645, 18.488341146210175],
               [94.9909130765104, 18.48804352423152],
@@ -500,7 +500,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "DDF",
           "system:index": "0"
         }),
-  var geometry39 = /* color: #98ff00 */ee.Feature(
+    geometry39 = /* color: #98ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.05169723760125, 17.777070207477028],
               [96.05164627562996, 17.776873538744656],
@@ -517,7 +517,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry40 = /* color: #0b4a8b */ee.Feature(
+    geometry40 = /* color: #0b4a8b */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.02855782042977, 17.772963106419247],
               [96.02873752843377, 17.772858384325065],
@@ -531,7 +531,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry41 = /* color: #ffc82d */ee.Feature(
+    geometry41 = /* color: #ffc82d */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.07084955107209, 17.762986774426267],
               [96.07080127130982, 17.762792644542447],
@@ -551,7 +551,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry42 = /* color: #00ffff */ee.Feature(
+    geometry42 = /* color: #00ffff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.07399712335106, 17.76085261130042],
               [96.07388849388596, 17.76082834478693],
@@ -570,7 +570,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry43 = /* color: #bf04c2 */ee.Feature(
+    geometry43 = /* color: #bf04c2 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.07198010217186, 17.75193061417815],
               [96.07215981017586, 17.75194338666291],
@@ -587,7 +587,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry44 = /* color: #00ff00 */ee.Feature(
+    geometry44 = /* color: #00ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.07008243929383, 17.726948444928567],
               [96.07025141846177, 17.727186046135277],
@@ -601,7 +601,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry45 = /* color: #0000ff */ee.Feature(
+    geometry45 = /* color: #0000ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.04275877605912, 17.65551458392973],
               [96.04305381905075, 17.65584684667051],
@@ -611,7 +611,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry46 = /* color: #999900 */ee.Feature(
+    geometry46 = /* color: #999900 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.03993172775742, 17.614090677403123],
               [96.04074711929795, 17.61422361312188],
@@ -621,7 +621,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry47 = /* color: #009999 */ee.Feature(
+    geometry47 = /* color: #009999 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.2141237689161, 17.26760287729767],
               [96.21481041442391, 17.266726904248717],
@@ -638,7 +638,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry48 = /* color: #ff00ff */ee.Feature(
+    geometry48 = /* color: #ff00ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.22042427789208, 17.28203918417591],
               [96.21995220910546, 17.28132206975864],
@@ -654,7 +654,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry49 = /* color: #ff9999 */ee.Feature(
+    geometry49 = /* color: #ff9999 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.22243057023522, 17.28335559408801],
               [96.22338543664452, 17.281957228383835],
@@ -667,7 +667,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry50 = /* color: #99ff99 */ee.Feature(
+    geometry50 = /* color: #99ff99 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.19907389413353, 16.77086474995629],
               [96.19992951880928, 16.770667004238412],
@@ -678,7 +678,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry51 = /* color: #9999ff */ee.Feature(
+    geometry51 = /* color: #9999ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.278402907958, 16.53370538777808],
               [96.27899031173226, 16.533710530390728],
@@ -689,7 +689,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry52 = /* color: #ffff99 */ee.Feature(
+    geometry52 = /* color: #ffff99 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.27079079877373, 16.536813429307603],
               [96.27138893138405, 16.536947135038403],
@@ -699,7 +699,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry53 = /* color: #99ffff */ee.Feature(
+    geometry53 = /* color: #99ffff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.81757251750466, 16.840053475384074],
               [96.81838790904519, 16.8407979585599],
@@ -710,7 +710,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry54 = /* color: #ff99ff */ee.Feature(
+    geometry54 = /* color: #ff99ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.81633870135781, 16.836223191522823],
               [96.8180123997831, 16.83579702914456],
@@ -721,7 +721,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry55 = /* color: #d63000 */ee.Feature(
+    geometry55 = /* color: #d63000 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.81666324864861, 16.830283787821305],
               [96.81663106214043, 16.828666368766896],
@@ -732,7 +732,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry56 = /* color: #98ff00 */ee.Feature(
+    geometry56 = /* color: #98ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.82240049373146, 16.818753598936286],
               [96.82314883004662, 16.818902512549727],
@@ -742,7 +742,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry57 = /* color: #0b4a8b */ee.Feature(
+    geometry57 = /* color: #0b4a8b */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.75269792806145, 16.737666913715216],
               [96.75266574155327, 16.735457928243488],
@@ -757,7 +757,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry58 = /* color: #ffc82d */ee.Feature(
+    geometry58 = /* color: #ffc82d */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.74350063334938, 16.679224213540348],
               [96.74428920279976, 16.678843947964562],
@@ -768,7 +768,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry59 = /* color: #bf04c2 */ee.Feature(
+    geometry59 = /* color: #bf04c2 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.66597406398293, 16.571018504246137],
               [96.66815201770302, 16.57231418748112],
@@ -779,7 +779,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry60 = /* color: #ff0000 */ee.Feature(
+    geometry60 = /* color: #ff0000 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.62353078853127, 16.535810633373735],
               [96.62945310603615, 16.539307540185238],
@@ -789,7 +789,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry61 = /* color: #00ff00 */ee.Feature(
+    geometry61 = /* color: #00ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.49277846347329, 16.482325784737558],
               [96.49378697406289, 16.482577839574446],
@@ -799,7 +799,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry62 = /* color: #0000ff */ee.Feature(
+    geometry62 = /* color: #0000ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.11485521327492, 16.320592219780504],
               [96.11383597384926, 16.32102982099681],
@@ -813,7 +813,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry63 = /* color: #999900 */ee.Feature(
+    geometry63 = /* color: #999900 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.14897291194436, 16.327858847271326],
               [96.14976684581276, 16.326108497634362],
@@ -825,7 +825,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry64 = /* color: #009999 */ee.Feature(
+    geometry64 = /* color: #009999 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.19960228930947, 16.35040606784504],
               [96.20046059619423, 16.3480176270427],
@@ -836,7 +836,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry66 = /* color: #ff9999 */ee.Feature(
+    geometry66 = /* color: #ff9999 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.20683888923165, 16.359820563975017],
               [96.20698104630944, 16.35975365007692],
@@ -848,7 +848,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry67 = /* color: #99ff99 */ee.Feature(
+    geometry67 = /* color: #99ff99 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.2073163224363, 16.359352166206634],
               [96.20738337766167, 16.359208043590225],
@@ -861,7 +861,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry68 = /* color: #9999ff */ee.Feature(
+    geometry68 = /* color: #9999ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.20829532872673, 16.359339298120204],
               [96.20842943917748, 16.359099951558083],
@@ -871,7 +871,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry69 = /* color: #ffff99 */ee.Feature(
+    geometry69 = /* color: #ffff99 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.10939155351159, 16.82160604453298],
               [96.11017475854393, 16.822181149875874],
@@ -884,7 +884,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Mangrove",
           "system:index": "0"
         }),
-  var geometry70 = /* color: #99ffff */ee.Feature(
+    geometry70 = /* color: #99ffff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.1463523937368, 16.83680980503503],
               [96.14675204288002, 16.8366763089032],
@@ -897,7 +897,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry71 = /* color: #ff99ff */ee.Feature(
+    geometry71 = /* color: #ff99ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.16040716897484, 16.844856623961444],
               [96.16051982175347, 16.844877160946442],
@@ -913,7 +913,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry72 = /* color: #d63000 */ee.Feature(
+    geometry72 = /* color: #d63000 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.21513496171471, 19.070340098411865],
               [96.21713052522179, 19.070431358548262],
@@ -923,7 +923,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Indaing",
           "system:index": "0"
         }),
-  var geometry73 = /* color: #98ff00 */ee.Feature(
+    geometry73 = /* color: #98ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.39417241345879, 19.46712807913953],
               [96.39564226399895, 19.46714325238743],
@@ -934,7 +934,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Indaing",
           "system:index": "0"
         }),
-  var geometry74 = /* color: #0b4a8b */ee.Feature(
+    geometry74 = /* color: #0b4a8b */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.39723281394478, 19.457898687975486],
               [96.39951805602547, 19.457893629937963],
@@ -944,7 +944,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Indaing",
           "system:index": "0"
         }),
-  var geometry75 = /* color: #ffc82d */ee.Feature(
+    geometry75 = /* color: #ffc82d */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.43722991477486, 19.301608663931102],
               [96.4414141608381, 19.30163904128664],
@@ -954,7 +954,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Indaing",
           "system:index": "0"
         }),
-  var geometry76 = /* color: #00ffff */ee.Feature(
+    geometry76 = /* color: #00ffff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.49473647605416, 19.183423469031005],
               [96.4996073676252, 19.183443735189037],
@@ -964,7 +964,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Indaing",
           "system:index": "0"
         }),
-  var geometry77 = /* color: #bf04c2 */ee.Feature(
+    geometry77 = /* color: #bf04c2 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.31028638612267, 18.453077613879014],
               [95.31097839604851, 18.453097968264956],
@@ -975,7 +975,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Indaing",
           "system:index": "0"
         }),
-  var geometry78 = /* color: #ff0000 */ee.Feature(
+    geometry78 = /* color: #ff0000 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.29499779473778, 18.481492530085994],
               [95.29484222661492, 18.47987970445822],
@@ -986,7 +986,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Indaing",
           "system:index": "0"
         }),
-  var geometry79 = /* color: #00ff00 */ee.Feature(
+    geometry79 = /* color: #00ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.265319151988, 18.517025534869692],
               [95.26572148334023, 18.517040794964498],
@@ -997,7 +997,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Indaing",
           "system:index": "0"
         }),
-  var geometry80 = /* color: #999900 */ee.Feature(
+    geometry80 = /* color: #999900 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.46950767766472, 18.74320666897791],
               [95.46979467402932, 18.742744394399217],
@@ -1010,7 +1010,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Indaing",
           "system:index": "0"
         }),
-  var geometry81 = /* color: #009999 */ee.Feature(
+    geometry81 = /* color: #009999 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.46505252849099, 18.739617657840707],
               [95.46586255561348, 18.739643058045967],
@@ -1024,7 +1024,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Indaing",
           "system:index": "0"
         }),
-  var geometry82 = /* color: #ff00ff */ee.Feature(
+    geometry82 = /* color: #ff00ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.46910266410347, 18.747914431688162],
               [95.46930114757058, 18.747703620195917],
@@ -1035,10 +1035,10 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Indaing",
           "system:index": "0"
         }),
-  var table2 = ee.FeatureCollection("users/pawlokdass/Sumalika/Rakhine"),
-  var table3 = ee.FeatureCollection("users/pawlokdass/Sumalika/Ayeyarwady"),
-  var table4 = ee.FeatureCollection("users/pawlokdass/Sumalika/Kayin"),
-  var geometry83 = /* color: #00ffff */ee.Feature(
+    table2 = ee.FeatureCollection("users/pawlokdass/Sumalika/Rakhine"),
+    table3 = ee.FeatureCollection("users/pawlokdass/Sumalika/Ayeyarwady"),
+    table4 = ee.FeatureCollection("users/pawlokdass/Sumalika/Kayin"),
+    geometry83 = /* color: #00ffff */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.00854890057127, 18.38504412638373],
               [95.00979344555418, 18.38502885455484],
@@ -1048,7 +1048,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "DDF",
           "system:index": "0"
         }),
-  var geometry84 = /* color: #bf04c2 */ee.Feature(
+    geometry84 = /* color: #bf04c2 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.0234861225752, 18.432961729467277],
               [95.02427469202559, 18.432946461888744],
@@ -1058,7 +1058,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "DDF",
           "system:index": "0"
         }),
-  var geometry85 = /* color: #ff0000 */ee.Feature(
+    geometry85 = /* color: #ff0000 */ee.Feature(
         ee.Geometry.Polygon(
             [[[94.99068270632307, 18.582175507542587],
               [94.99171803900282, 18.582165338026286],
@@ -1068,7 +1068,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "DDF",
           "system:index": "0"
         }),
-  var geometry86 = /* color: #00ff00 */ee.Feature(
+    geometry86 = /* color: #00ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[97.14813884922798, 18.16849269925178],
               [97.1536108533031, 18.168716977888142],
@@ -1078,7 +1078,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry87 = /* color: #0000ff */ee.Feature(
+    geometry87 = /* color: #0000ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[97.14683006712477, 18.13056228126328],
               [97.15069244810621, 18.130705027277575],
@@ -1088,9 +1088,9 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var table5 = ee.FeatureCollection("users/pawlokdass/Sumalika/Mon"),
-  var table6 = ee.FeatureCollection("users/pawlokdass/Sumalika/Magway_Mandalay_NPT"),
-  var geometry65 = /* color: #d63000 */ee.Feature(
+    table5 = ee.FeatureCollection("users/pawlokdass/Sumalika/Mon"),
+    table6 = ee.FeatureCollection("users/pawlokdass/Sumalika/Magway_Mandalay_NPT"),
+    geometry65 = /* color: #d63000 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.9928525541286, 16.6101311883955],
               [95.99290620665371, 16.60956573024248],
@@ -1101,7 +1101,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry88 = /* color: #d63000 */ee.Feature(
+    geometry88 = /* color: #d63000 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.98925302931349, 16.629867401224647],
               [95.99164555975477, 16.629846841050345],
@@ -1111,7 +1111,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry89 = /* color: #98ff00 */ee.Feature(
+    geometry89 = /* color: #98ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[97.02390442797224, 17.5797061320022],
               [97.02388297030012, 17.57871403512515],
@@ -1121,7 +1121,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry90 = /* color: #0b4a8b */ee.Feature(
+    geometry90 = /* color: #0b4a8b */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.90258811422865, 17.627772835803047],
               [96.90258811422865, 17.62635666044114],
@@ -1131,7 +1131,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry91 = /* color: #ffc82d */ee.Feature(
+    geometry91 = /* color: #ffc82d */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.9031191916136, 17.624030427676647],
               [96.90311382719557, 17.622598884908115],
@@ -1141,7 +1141,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry92 = /* color: #00ffff */ee.Feature(
+    geometry92 = /* color: #00ffff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.92307214447538, 17.61687260022533],
               [96.92371587463896, 17.61689816440012],
@@ -1151,7 +1151,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry93 = /* color: #bf04c2 */ee.Feature(
+    geometry93 = /* color: #bf04c2 */ee.Feature(
         ee.Geometry.Polygon(
             [[[97.21933017679731, 17.54480304180983],
               [97.22005437323133, 17.544787697188834],
@@ -1161,8 +1161,8 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var table7 = ee.FeatureCollection("users/pawlokdass/Sumalika/Kayah"),
-  var geometry94 = /* color: #ff0000 */ee.Feature(
+    table7 = ee.FeatureCollection("users/pawlokdass/Sumalika/Kayah"),
+    geometry94 = /* color: #ff0000 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.9767109603552, 17.61057603367874],
               [96.97808961578886, 17.610545355593878],
@@ -1172,7 +1172,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry95 = /* color: #00ff00 */ee.Feature(
+    geometry95 = /* color: #00ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.92710350462477, 17.63437043034911],
               [96.92803691336195, 17.63437043034911],
@@ -1182,7 +1182,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Lowland_Evergreen",
           "system:index": "0"
         }),
-  var geometry96 = /* color: #0000ff */ee.Feature(
+    geometry96 = /* color: #0000ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.92747633167784, 17.6255309790598],
               [96.92829172321836, 17.625510528698978],
@@ -1192,7 +1192,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry97 = /* color: #999900 */ee.Feature(
+    geometry97 = /* color: #999900 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.9506479353575, 17.61908644433706],
               [96.95129434773008, 17.619073662405153],
@@ -1202,7 +1202,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Lowland_Evergreen",
           "system:index": "0"
         }),
-  var geometry98 = /* color: #009999 */ee.Feature(
+    geometry98 = /* color: #009999 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.92242036768477, 17.63297475632766],
               [96.92244182535688, 17.63097069268068],
@@ -1212,7 +1212,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry99 = /* color: #d63000 */ee.Feature(
+    geometry99 = /* color: #d63000 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.92901323744337, 17.61957982621685],
               [96.92900250860731, 17.618352759979302],
@@ -1222,7 +1222,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry100 = /* color: #98ff00 */ee.Feature(
+    geometry100 = /* color: #98ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.90701375910322, 17.630086239138624],
               [96.91330085703413, 17.630515685331037],
@@ -1232,7 +1232,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Rubber",
           "system:index": "0"
         }),
-  var geometry101 = /* color: #0b4a8b */ee.Feature(
+    geometry101 = /* color: #0b4a8b */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.4667640180258, 17.92429552713697],
               [96.4671422094969, 17.924298079162227],
@@ -1242,7 +1242,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry102 = /* color: #ffc82d */ee.Feature(
+    geometry102 = /* color: #ffc82d */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.95841293045561, 17.623493600469963],
               [96.95934633919279, 17.623508938412332],
@@ -1252,7 +1252,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry103 = /* color: #00ffff */ee.Feature(
+    geometry103 = /* color: #00ffff */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.48206069301683, 17.828518472917885],
               [96.4823074562462, 17.82875849250725],
@@ -1262,7 +1262,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry104 = /* color: #bf04c2 */ee.Feature(
+    geometry104 = /* color: #bf04c2 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.48051842283327, 17.826345514898925],
               [96.48071422409136, 17.826534468822214],
@@ -1273,7 +1273,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry105 = /* color: #ff0000 */ee.Feature(
+    geometry105 = /* color: #ff0000 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.48267223667223, 17.82068701808469],
               [96.48295118640978, 17.820998546499684],
@@ -1283,7 +1283,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry106 = 
+    geometry106 = 
     /* color: #d63000 */
     /* displayProperties: [
       {
@@ -1300,7 +1300,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "MDF",
           "system:index": "0"
         }),
-  var geometry107 = 
+    geometry107 = 
     /* color: #ffc82d */
     /* displayProperties: [
       {
@@ -1317,7 +1317,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry108 = 
+    geometry108 = 
     /* color: #00ffff */
     /* displayProperties: [
       {
@@ -1334,7 +1334,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry109 = 
+    geometry109 = 
     /* color: #bf04c2 */
     /* displayProperties: [
       {
@@ -1351,7 +1351,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry110 = /* color: #00ff00 */ee.Feature(
+    geometry110 = /* color: #00ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.14725123354475, 19.375744751638827],
               [96.14784131952803, 19.37575993342162],
@@ -1361,7 +1361,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry111 = /* color: #0000ff */ee.Feature(
+    geometry111 = /* color: #0000ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.83102951952498, 19.444700980357414],
               [95.83159814783613, 19.444700980357414],
@@ -1371,7 +1371,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry112 = /* color: #999900 */ee.Feature(
+    geometry112 = /* color: #999900 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.14559362837355, 19.37715159078336],
               [96.14559899279158, 19.37688338137036],
@@ -1383,7 +1383,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry113 = /* color: #009999 */ee.Feature(
+    geometry113 = /* color: #009999 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.842200920072, 19.431983541561856],
               [95.84221164890806, 19.43153836257565],
@@ -1395,7 +1395,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry114 = /* color: #ff00ff */ee.Feature(
+    geometry114 = /* color: #ff00ff */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.83801935621779, 19.430412762536918],
               [95.83800594517271, 19.429795576283155],
@@ -1409,7 +1409,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry115 = /* color: #ff9999 */ee.Feature(
+    geometry115 = /* color: #ff9999 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.81464926907103, 19.444230543873843],
               [95.81463854023497, 19.443297254657836],
@@ -1419,7 +1419,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry116 = /* color: #99ff99 */ee.Feature(
+    geometry116 = /* color: #99ff99 */ee.Feature(
         ee.Geometry.Polygon(
             [[[95.80478142210524, 19.44654224527125],
               [95.80478142210524, 19.44549515484483],
@@ -1433,7 +1433,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry117 = /* color: #98ff00 */ee.Feature(
+    geometry117 = /* color: #98ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.1364365667967, 19.375141274576052],
               [96.13667796560804, 19.37506536535975],
@@ -1444,7 +1444,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Bamboo",
           "system:index": "0"
         }),
-  var geometry118 = /* color: #0b4a8b */ee.Feature(
+    geometry118 = /* color: #0b4a8b */ee.Feature(
         ee.Geometry.Polygon(
             [[[96.13662432142775, 19.37639124125181],
               [96.13662163921873, 19.375933258623462],
@@ -1454,7 +1454,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "Upland_Evergreen",
           "system:index": "0"
         }),
-  var geometry119 = /* color: #98ff00 */ee.Feature(
+    geometry119 = /* color: #98ff00 */ee.Feature(
         ee.Geometry.Polygon(
             [[[94.96497641512434, 18.82848912199023],
               [94.96652673193495, 18.82850435407595],
@@ -1464,7 +1464,7 @@ var geometry25 = /* color: #00ff00 */ee.Feature(
           "Class": "DDF",
           "system:index": "0"
         }),
-  var geometry120 = /* color: #0b4a8b */ee.Feature(
+    geometry120 = /* color: #0b4a8b */ee.Feature(
         ee.Geometry.Polygon(
             [[[94.9575842470793, 18.781522042086362],
               [94.95895217367689, 18.781516963306647],
